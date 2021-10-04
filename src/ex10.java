@@ -11,6 +11,7 @@ public class ex10 {
 			System.out.print("Digite um número: ");
 			numeros[i] = input.nextInt();
 		}
+		input.close();
 
 		SortArrayAsc(numeros, 3);
 
