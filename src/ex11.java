@@ -11,7 +11,17 @@ public class ex11 {
 			System.out.print("Digite o turno: ");
 			turno = input.next().charAt(0);
 			turno = Character.toUpperCase(turno);
-		}while(turno != 'M' || turno != 'V' || turno != 'N');
+		}while(turno != 'M' && turno != 'V' && turno != 'N');
+		input.close();
+		
+		if(turno == 'M')
+			System.out.println("Bom dia!");
+		else if (turno == 'V')
+			System.out.println("Boa Tarde!");
+		else if (turno == 'N')
+			System.out.println("Boa Noite!");
+		else 
+			throw new UnsupportedOperationException();
 
 	}
 
