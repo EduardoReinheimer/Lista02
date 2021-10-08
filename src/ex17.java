@@ -19,6 +19,8 @@ public class ex17 {
 			nota2 = input.nextFloat();
 		} while (nota2 > 10 || nota2 < 0);
 
+		input.close();
+		
 		float media = (nota1 + nota2) / 2;
 		
 		char gradeAproveitamento = GetAproveitamento(media);
