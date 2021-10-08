@@ -18,7 +18,7 @@ public class ex16 {
 	}
 
 	private static String StatusAluno(float media) {
-		if(media < 3) {
+		if (media < 3) {
 			return "Reprovado";
 		} else if (media >= 3 && media < 7) {
 			return "Em Exame";
