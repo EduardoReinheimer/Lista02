@@ -14,8 +14,10 @@ public class ex01 {
 		
 		if(num1 > num2)
 			System.out.println(num1);
-		else
+		else if(num1 < num2)
 			System.out.println(num2);
+		else
+			System.out.println("Os dois são iguais");
 			
 	}
 }
